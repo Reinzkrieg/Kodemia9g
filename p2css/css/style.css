@@ -1,0 +1,61 @@
+header{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:cyan; 
+    padding: 20px;
+    text-align: start;
+    margin: 20px;
+    border-color: rgb(255, 46, 227);
+    border: 3px;
+}
+
+nav{
+    background-color: rgb(201, 5, 112);
+    padding: 7px;
+    text-align: left;
+}
+
+section{
+    background-color: rgb(28, 162, 224);
+    padding: 60px;
+    text-align: start;
+    margin: 20px;
+    width: 700px;
+}
+
+article.uno{
+    background-color: rgb(247, 166, 226);
+    padding: 30px;
+    text-align: left;
+    margin: 20px;
+}
+
+article.dos{
+    background-color: rgb(247, 166, 226);
+    padding: 30px;
+    text-align: left;
+    margin: 20px;
+}
+
+article.tres{
+    background-color: rgb(247, 166, 266);
+    padding: 30px;
+    text-align: left;
+    margin: 20px;
+}
+
+aside{
+    background-color: rgb(240, 78, 255);
+    margin: 20px;
+    column-width: 60px;
+    position: absolute;
+    top: 100px;
+    left: 850px;
+    right: 20px;
+    padding: 220px;
+}
+
+footer{
+    margin: 20px;
+    background-color: rgb(161, 224, 253);
+    padding: 20px;
+}
