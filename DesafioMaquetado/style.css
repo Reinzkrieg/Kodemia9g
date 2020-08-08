@@ -1,18 +1,164 @@
 *{
    box-sizing: border-box; 
+   font-family: 'Poppins', sans-serif;
+   font-weight: 500;
 }
 
 body{
-   padding-top:20px;
+   padding-top:40px;
+   font-size: 18px;
+   margin: 0;
 }
 
 nav{
-    
+    width: 100%;
+    margin: 0;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color:hsl(0, 0%, 75%)
 }
 
-nav ul li{
-    color: gray;
-    list-style: none;
-    display: flex;
+.nav-1{
+    width: 40%;
+    display:flex;
+    justify-content: space-between;
     align-items: center;
 }
+
+.nav-2{
+    width: 60%;
+    display:flex;
+    justify-content: flex-end;
+}  
+
+.nav-logo{
+    width: 30%;
+    display:flex;
+    justify-content: flex-start;
+}
+.nav-links{
+    width: 60%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.hover-text-nav:hover{
+    color: hsl(0, 0%, 33%);
+}
+
+
+.login{
+    margin: 5px;    
+}
+
+.sign-up{
+
+    margin:5px;
+    background-color: hsl(180, 66%, 49%);
+    color: honeydew;
+    border-width: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+
+}
+
+.botton-large{
+    margin-top: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 40px;
+}
+
+.sign-up:hover{
+    background-color: hsl(180, 91%, 79%);
+}
+
+header{
+    width: 100%;
+    padding-top: 8rem;
+    padding-left:130px;
+    display: flex;
+
+}
+
+header section{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+
+.titles{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    margin: auto;
+}
+
+.header-p{
+    font-size: 1.5rem;
+    margin: auto;
+    color:hsl(0, 0%, 75%)
+}
+.imagen_secretaria{
+    overflow: hidden;
+    width: 50%;
+}
+
+/*---------*/
+
+form{
+    background-color:white;
+    padding:20px;
+    border-radius:10px;
+  }
+  form form-group{
+    width:100%;
+  }
+  .button{
+    color:white;
+    height:25px;
+    background-color:MediumTurquoise;
+    border:MediumTurquoise;
+    border:1px;
+    border-radius:5px;
+    width:100%;
+  }
+  .button-turquoise{
+    color:white;
+    height:25px;
+    background-color:MediumTurquoise;
+    border:MediumTurquoise;
+    border:1px;
+    border-radius:5px;
+    width:100%;
+  }
+  .button-black{
+    color:white;
+    height:25px;
+    background-color:MidnightBlue;
+    border:MediumTurquoise;
+    border:1px;
+    border-radius:5px;
+    width:100%;
+  }
+  .button-blue{
+    color:white;
+    height:25px;
+    background-color:MediumTurquoise;
+    border:MediumTurquoise;
+    border:1px;
+    border-radius:5px;
+    width:100%
+  }
+  

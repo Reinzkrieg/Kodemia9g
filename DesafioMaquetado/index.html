@@ -4,33 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel ="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
     <title>Desafio Maquetado</title>
 </head>
 <body>
-<nav>
-    <ul>
-        <li><img src="images/logo.svg" ></li>
-        <li>Features</li>
-        <li>Pricing</li>
-        <li>Resources</li>
-        <li>Login</li>
-        <li><input type="button" value="Sign up"></li>
-
-    </ul>
-</nav>
-    <header>
-        <h1><b>More than just shorter links</b></h1>
-        <p>Build your brand's recognition and get detailed insights on how your links
-            are preforming.
-        </p>
-        <input type="button" value="Get Started">
-        <img src="">
-
-    </header>
-
     <div>
-
+        <nav>
+            <section class="nav-1">
+                <div class="nav-logo">
+                    <img src="images/logo.svg" >
+                </div>
+                <div class="nav-links">
+                    <div class="hover-text-nav">Features</div>
+                    <div class="hover-text-nav">Pricing</div>
+                    <div class="hover-text-nav">Resources</div>
+                </div>
+            </section>
+            <section class="nav-2">    
+                <div class="login hover-text-nav">Login</div>
+                <div><input class="sign-up" type="button" value="Sign up"></div>
+            </section>
+        </nav>
+        <header>
+            <section>
+                <h1 class="titles">More than just shorter links</h1>
+                <p class="header-p ">Build your brand's recognition and get detailed insights on how your links
+                    are preforming.
+                </p>
+                <input class="sign-up botton-large" type="button" value="Get Started">
+            </section>    
+            <section class="imagen_secretaria">    
+                <img src="images/illustration-working.svg">
+            </section>
+        </header>
     </div>
+
+    <aside>
+        <form action="">
+          <div class="form group">
+            <label for="">please add a link</label>
+            <input type="text" name="link" placeholder="Shorten a link here...">
+          </div>
+               <button class="button">Shorten it!</button>
+          <div class="form link">
+            <p>https://frontendmentor.io</p>
+                <div style="color:MediumTurquoise">
+            <p>https://rel.ink/k4lKyk</p>
+                  </div>
+            <button class="button-turquoise">Copy</button>
+          </div>
+          <div class="form link2">
+            <p>https://twitter.com/frontendmentor</p>
+            <div style="color:MediumTurquoise">
+              <p>https://rel.ink/gxoxp9</p>
+            </div>
+            <button class="button-black">Copied!</button>
+          </div>
+          <div class="form link3">
+            <p>https:/www.linkedin.com/compan....</p>
+            <div style="color:MediumTurquoise">
+              <p>https://rel.ink/gob3X9</p>
+            </div>
+            <button class="button-blue">Copy</button>
+          </aside>
+
+
 
 </body>
 </html>
